@@ -1,0 +1,42 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Dependencies and build products
+node_modules/
+dist/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+# Models, datasets, installers, media, and generated output
+*.weights
+*.pkl
+*.pb
+*.h5
+*.keras
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tgz
+*.whl
+*.run
+*.o
+*.so
+*.a
+effects_model/
+/web/server/*.json
+/web/server/result.txt
+/web/server/static/saved_videos/*
+!/web/server/static/saved_videos/.gitkeep
+/web/server/static/saved_timestamps/*
+!/web/server/static/saved_timestamps/.gitkeep
+/web/server/darknet/darknet
+/web/server/darknet/build/
+/notebooks/effects/
+/notebooks/darknet/

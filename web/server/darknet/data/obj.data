@@ -1,0 +1,5 @@
+classes=118
+train=data/move_train.txt
+valid=data/est.txt
+names=data/obj.names
+backup=../backup
