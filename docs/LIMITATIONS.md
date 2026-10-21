@@ -5,7 +5,7 @@
 - Trained weights, SavedModel, encoders, datasets, and footage are intentionally excluded. A fresh clone cannot perform full inference without them.
 - Python requirements were inferred from imports and the historical project period. Dependency installation, GPU compatibility, and end-to-end inference have not been validated for this publication.
 - The label vocabulary is limited to the original character/action classes. This is not arbitrary-video semantic search.
-- No reproducible benchmark supports claims about model accuracy, retrieval quality, or throughput.
+- The [archived report](archive/README.md) provides historical loss plots and evaluation descriptions, but no benchmark has been reproduced for the curated source to substantiate current model accuracy, retrieval quality, or throughput.
 
 The frontend dependency installation also reported an unsupported legacy engine declaration and a deprecation/security warning for the existing Axios version. Updating legacy dependencies is separate from this source-curation work.
 

@@ -16,7 +16,7 @@ The repository was assembled using an explicit file selection from the original 
 | --- | --- |
 | CUDA/cuDNN, NVIDIA, Anaconda installers and downloaded wheels | Machine setup downloads, not application source |
 | Detector weights, SavedModel directories, serialized encoders | Binary runtime artifacts; supplied separately |
-| Gameplay videos, frame images, annotation datasets and archives | Bulky training/demo inputs; redistribution not established |
+| Gameplay videos, training frame collections, annotation datasets and compressed archives | Bulky training/demo inputs; redistribution not established |
 | Vendored Darknet source, binaries, object files, sample assets | Upstream dependency; only project configuration is retained |
 | `dist/`, caches, checkpoint notebooks, nested `.git/` directories | Generated output or local metadata |
 | `src_old/`, copied templates, duplicate notebooks, scratch JSON/logs | Superseded experiments or generated results |
@@ -33,3 +33,9 @@ No bulk `git add` was run in the original directory. Its pre-existing staged mod
 - Remove stale query results from the checked-in player template.
 
 No model performance results, individual contribution claims, or project license were invented.
+
+## Additional Spring 2022 archive
+
+Added the original poster, May 5, 2022 report PDF, original LaTeX source and bibliography, and all 11 referenced figures under `archive/`. The README embeds the poster and historical interface screenshot. These are unchanged archival documents; the accompanying archive index explains historical claims and their relationship to the current source.
+
+Duplicate compressed archives, training-image collections, weekly status reports, incomplete proposal templates, unused illustrations, and generated LaTeX files remain excluded. SHA-256 checks verified copied assets against their originals. No application code changed in this addition.
